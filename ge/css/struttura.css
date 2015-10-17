@@ -1,0 +1,898 @@
+html, body {
+	width: 100%;
+	height: 100.1%;
+    margin: 0px auto;
+    text-align: left;
+}
+.CLSdisplaynone {
+	display: none;
+}
+.CLSdivsfondo {
+    position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;    
+	display: none;
+}
+.CLSsfondoattivo {
+	display: block;
+}
+.CLSsfondo1 {
+	background:#fff url(../images/sfondo/01.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo2 {
+	background:#fff url(../images/sfondo/02.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo3 {
+	background: #fff url(../images/sfondo/03.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo4 {
+	background:#fff url(../images/sfondo/04.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo5 {
+	background:#fff url(../images/sfondo/05.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo6 {
+	background:#fff url(../images/sfondo/06.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo7 {
+	background:#fff url(../images/sfondo/07.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo8 {
+	background:#fff url(../images/sfondo/08.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo9 {
+	background:#fff url(../images/sfondo/09.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo10 {
+	background:#fff url(../images/sfondo/10.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondo11 {
+	background:#fff url(../images/sfondo/11.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLStestata {
+	position: fixed;
+	top: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	z-index: 1000;
+}
+.CLStestataindexiniziale {
+	top: 50%;
+	height: 50px;
+}
+.CLStestataslideshow {
+	height: 25px;
+}
+.CLSsfondotestata {
+	position: absolute;
+	top: 0px;
+	height: 100px;
+	width: 100%;
+	z-index: 0;
+}
+.CLStitolooperasfondo {
+	position: fixed;
+	width: 0px;
+	right: 0px;
+	display: none;
+	text-align: right;
+	padding: 5px;
+}
+.CLStitolooperasfondo2 {
+	width: 100%;
+	bottom: 80px;
+	right: 0px;
+}
+.CLSscrittatestata {
+	position: absolute;
+	top: 2px;
+	width: 100%;
+	height: 50px;
+	left: 0px;
+	margin-top: 0px;
+	line-height: 25px;
+}
+.CLSscrittatestatainiziale {
+	line-height: 50px;
+}
+.CLSluna {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 70px;
+	height: 100%;
+	background: transparent url(../images/luna.png) no-repeat left center;
+}
+.CLScontenitorepulsantimenu {
+	position: absolute;
+	height: 100px;
+	top: 25px;
+	width: 100%;
+}
+.CLSmenu {
+	margin:0px;
+    padding: 0px;
+    top: 0px;
+    list-style: none;
+}
+.CLSpulsantemenu {
+    float:left;
+	width: 115px;
+	padding-left: 25px;
+	background:transparent url(../images/sfondopulsante.png) no-repeat left center;
+}
+.CLSlinkpulsantemenu {
+    display: block;
+    float:left;
+    width: 115px;
+    /*height: 49px;*/
+	height: 35px;
+    text-decoration:none;
+    text-align: center;
+}
+.CLSfootersito {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.CLSfooteradesso {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	left: 50%;
+	margin-left: -75px;
+	line-height: 50px;
+	display: none;
+	text-align: center;
+}
+.CLSfooterdeb {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	left: 50%;
+	margin-left: -75px;
+	line-height: 50px;
+	display: none;
+	text-align: center;
+}
+.CLSnews {
+	margin-top: 50px;
+	padding-top: 5px;
+}
+.CLSimmaginenewsnascosta {
+	display: none;
+}
+.CLSbioelenco {
+	margin-top: 50px;
+	padding-top: 5px;
+}
+.CLScontenitoreimmaginenews {
+	position: absolute;
+	right: 50%;
+	width: 50%;
+	height: 600px;
+	overflow: hidden;
+	opacity: 0.2;
+}
+.CLSimmaginenews {
+	position: absolute;
+	right: 0px;
+	width: 1000px;
+	height: 600px;
+}
+.CLSnewscorpo {
+	position: absolute;
+	left: 0px;
+	padding-left: 0px;
+	width: 100%;
+}
+.CLScontenitorearticolo {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+.CLSsfondoworks {
+    position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+	display: none;
+	background: transparent url(../images/sfondo/works-01.jpg) no-repeat left center;
+	background-size:cover;
+}
+.CLScontenitoresezioni {
+	position: absolute;
+	top: 100px;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+   list-style: none;
+	padding: 0px;
+	display: inline;
+}
+.CLScontenitoresezionibio {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	padding: 0px;
+	display: inline;
+}
+.CLScontenitoresezioniampio {
+	width: 100%;
+	left: 0px;
+	margin-left: 0px;
+}
+.CLSsfondocontenitoresezioni {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 0;
+}
+.CLSworkssezione {
+	z-index: 1;
+	height: 50px;
+	padding: 25px;
+	overflow: hidden;
+}
+.CLSworkssezionemenu {
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px;
+}
+.CLSworkssezionequadrato {
+   visibility: hidden;
+	width: 45px;
+	height: 45px;
+}
+.CLSworkslinksezione {
+    display: block;
+    text-decoration:none;
+    text-align: center;
+	vertical-align: center;
+	margin-top: -50px;
+}
+.CLSworkslinksezionemenu {
+	z-index: 500;
+	margin-top: 0px;
+    text-align: left;
+	padding-left: 45px;
+}
+article h2 {
+	margin-top: -25px;
+}
+.CLSarticolosezione {
+	overflow: hidden;
+	height: 250px;
+}
+.CLScontenitorearticolosezione {
+	margin-top: 0px;
+	width: 100%;
+}
+.CLSimmaginesezione {
+	margin-right: 51%;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	cursor: zoom-in;
+}
+.CLSimmaginesezionepiccola {
+	width: 200px;
+	height: 200px;
+}
+.CLSsezionecorpo {
+	margin-left: 51%;
+}
+.CLScontenitorearticolosezionesolotesto {
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+}
+.CLSsezionecorposolotesto {
+	margin-left: 25px;
+	text-align: left;
+}
+.CLSbio {
+	display: inline;
+}
+.CLSbioarticle{
+	display: block;
+}
+.CLSsfondobio {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+	display: none;
+	background: transparent url(../images/sfondo/bio-01.jpg) no-repeat left center;
+	background-size:cover;
+}
+.CLSbiosezione {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+.CLSbiosezioneimmagini {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+.CLScorpobiosezione {
+	top: 55px;
+	width: 97%;
+	z-index: 1;
+	padding: 5px;
+	float: left;
+}
+.CLSesposizionibiosezione {
+	top: 50px;
+	width: 97%;
+	z-index: 1;
+	padding: 5px;
+	float: left;
+}
+.CLSpremibiosezione {
+	top: 50px;
+	width: 100%;	
+	z-index: 1;
+	padding: 0px;
+}
+.CLSsfondobiomezzo {
+	display: none;
+}
+.CLSsfondobiomezzo1 {
+	background: transparent url(../images/bio/bio1.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondobiomezzo2 {
+	background: transparent url(../images/bio/bio2.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondobiomezzo3 {
+	background: transparent url(../images/bio/bio3.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondobiomezzo4 {
+	background: transparent url(../images/bio/bio4.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSsfondobiomezzo5 {
+	background: transparent url(../images/bio/bio5.jpg) no-repeat center center;
+	background-size:cover;
+}
+.CLSesposizione {
+	display: inline;
+	margin-left: 5px;
+}
+article h4 {
+	line-height: 25px;
+	display: inline;
+}
+.CLSsezioneinallestimento {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 100px;
+	line-height: 200px;
+}
+.CLSsezionecontatti {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 100px;
+	line-height: 100px;
+}
+.CLSsfondogallery {
+    position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+	display: none;
+	background: transparent url(../images/sfondo/gallery-01.jpg) no-repeat left center;
+	background-size:cover;
+}
+.CLSsfondocontact {
+    position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+	display: none;
+	background: transparent url(../images/sfondo/contact-01.jpg) no-repeat left center;
+	background-size:cover;
+}
+.CLSsfondosezionecontatti {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.CLSlinkcontatti {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.CLSsezionedescrizione {
+	margin-top: -30px;
+}
+.CLSsezionedescrizionesolotesto {
+	margin-top: 0px;
+}
+.CLSarticolosezionesolotesto {
+	width: 600px;
+	height: 600px;
+}
+.CLScontenitorepulsantimenuslideshow {
+	visibility: hidden;
+}
+.CLSslideshowdettagliarticolo {
+	position: fixed;
+	width: 100%;
+	top: 25px;
+	height: 90px;
+	overflow: hidden;
+	z-index: 100;
+	padding: 5px;
+}
+.CLSslideshowtitolosezione {
+	margin-left: 0px;
+	display: inline;
+}
+.CLSslideshowtitoloarticolo {
+	margin-left: 0px;
+	display: inline;
+}
+.CLSslideshowdescrizionearticolo {
+	margin-left: 0px;
+	display: inline;
+}
+.CLSslideshowimmagine {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	top: 100px;
+}
+.CLSslideshowcaricamento {
+	position: absolute;
+	margin-top: 25%;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+}
+.CLScontenitoresegnapostosfondi {
+	position: fixed;
+	width: 100%;
+	height: 15px;
+	bottom: 75px;
+	right: 5px;
+	display: none;
+}
+.CLSsegnapostosfondi {
+	display: inline;
+	width: 5px;
+	height: 5px;
+	float: right;
+	margin: 5px;
+}
+.CLSslideshowfreccia {
+	position: fixed;
+	bottom: 5px;
+	margin: 5px;
+}
+.CLSslideshowfrecciasx {
+	left: 0px;
+}
+.CLSslideshowfrecciadx {
+	right: 0px;
+}
+.CLSslideshowfreccia a {
+    text-decoration: none !important
+}
+.CLSslideshowtitolosezionemenu {
+	position: fixed;
+	top: 100px;
+	left: 0px;
+	width: 250px;
+	z-index: 500;
+}
+.CLSlenteingrandimento {
+	display: hidden;
+}
+.CLSimmaginelente {
+	position: absolute;
+}
+.CLSslideshowcontenitoreimmaginecaricata {
+	position: fixed;
+}
+.CLSpulsantelente {
+	display: none;
+}
+.CLSpulsantelente a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.CLSdettaglievento {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 5px;
+	padding: 5px;
+}
+.CLSeventodalal {
+	background: transparent url(../images/calendario.png) no-repeat left center;
+	background-size: contain;
+	text-indent: 35px;
+}
+.CLSeventoindirizzo {
+	background: transparent url(../images/mappa.png) no-repeat left center;
+	background-size: contain;
+	text-indent: 35px;
+}
+.CLSeventolink {
+	background: transparent url(../images/link.png) no-repeat left center;
+	background-size: contain;
+	text-indent: 35px;
+}
+.CLSeventobanner {
+	max-width: 100%;
+	max-height: 50px;
+	margin-top: 25px;
+}
+.CLSgallerywrapper {
+	position: absolute;
+	top: 100px;
+	
+	perspective: 1000px;
+	
+	width: 1000px;
+}
+.CLSgalleryparete {
+	height: 500px;
+	transition: .3s;
+	transform: rotateY(60deg);
+}
+.CLSgalleryparete img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;  
+}
+.CLSgalleryparete figure {
+	width: 11em;  
+	padding: 1em;
+	display: inline-block;
+	margin-right: 1em;
+}
+.CLSfootertecnico {
+	position: fixed;
+	bottom: 0px;	
+	height: 20px;
+	width: 100%;
+	z-index: 1000;
+}
+.CLSinfocookies {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 140px;
+}
+.CLSpowered {
+	position: absolute;
+	margin-top: -5px;
+	width: 25px;
+	height: 25px;
+	background: transparent url(../images/poweredbianco.png) no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+}
+.CLSpoweredgrande {
+	margin-top: -130px;
+	width: 150px;
+	height: 150px;
+}
+.CLSpoweredtesto {
+	position: absolute;
+	left: 5px;
+	bottom: 0px;
+	width: 150px;
+}
+.CLSvisualizzatorestatistiche {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+.CLScorpoinfocookies {
+	position: absolute;
+	width: 90%;
+	top: 150px;
+	padding: 15px;
+}
+.CLScontenitoreinfocookies {
+	position: absolute;
+	width: 100%;
+	height: 1300px;
+}
+.CLSchiudiinfocookies {
+	position: absolute;
+	width: 90%;
+	text-align: right;
+}
+.CLSlingua {
+	position: absolute;
+	margin-top: 0px;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+}
+.CLSlinguait {
+	right: 30px;
+	background: transparent url(../images/bandiera_it.png) no-repeat center center;
+	background-size: cover;
+}
+.CLSlinguaen {
+	right: 5px;
+	background: transparent url(../images/bandiera_en.png) no-repeat center center;
+	background-size: cover;
+}
+.CLSlinguamedia {
+	margin-top: -30px;
+	width: 50px;
+	height: 50px;
+}
+.CLSlinguagrande {
+	margin-top: -200px;
+	width: 220px;
+	height: 220px;
+	opacity: 0.1;
+}
+
+@media only screen and (min-width: 480px) {
+.CLSslideshowdettagliarticolo {
+	height: 50px;
+	padding: 0px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.CLSdivsfondo {
+    position: fixed;
+}
+.CLSsfondoworks {
+    position: fixed;
+}
+.CLSsfondobio {
+    position: fixed;
+}
+.CLSsfondogallery {
+    position: fixed;
+}
+.CLSsfondocontact {
+    position: fixed;
+}	
+.CLSluna {
+	display: block;
+}
+.CLSscrittatestata {
+	top: 15px;
+}
+.CLScontenitorepulsantimenu {
+	top: 50px;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+.CLStestataslideshow {
+	height: 100px;
+}
+.CLSslideshowdettagliarticolo {
+	top: 100px;
+	height: 50px;
+}
+.CLScontenitorepulsantimenuslideshow {
+	visibility: visible;
+}
+.CLSslideshowtitolosezione {
+	margin-left: 45px;
+	display: inline;
+}
+.CLSslideshowdescrizionearticolo {
+	margin-left: 25px;
+	display: inline;
+}
+.CLSslideshowtitoloarticolo {
+	margin-left: 25px;
+	display: inline;
+}
+.CLSlenteingrandimento {
+	position: fixed;
+	top: 100px;
+	right: 0px;
+	width: 250px;
+	height: 250px;
+	z-index: 400;
+	overflow: hidden;
+}
+.CLSpulsantelente {
+	position: fixed;
+	top: 115px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	background: transparent url(../images/lente.png) no-repeat center center;
+	background-size: contain;
+	z-index: 500;
+	display: block;
+}
+.CLSslideshowfreccia {
+	bottom: 50%;
+	margin: 25px;
+	margin-bottom: -100px;
+}
+.CLScontenitorearticolosezionesolotesto {
+	position: absolute;
+	left: 50%;
+	margin-left: -215px;
+	width: 500px;
+}
+}
+ 
+ 
+@media only screen and (min-width: 1024px){
+.CLSluna {
+	display: block;
+}
+.CLStestata {
+	height: 50px;
+}
+.CLSscrittatestata {
+	top: 5px;
+	width: 430px;
+	height: 100px;
+	left: 25px;
+	line-height: 50px;
+}
+.CLStestataindexiniziale {
+	height: 100px;
+}
+.CLSscrittatestatainiziale {
+	line-height: 100px;
+	width: 100%;
+}
+.CLStestatatop {
+	height: 50px;
+}
+.CLScontenitorepulsantimenu {
+	width: 600px;
+	height: 50px;
+	top: 0px;
+	right: 0px;
+	left: auto;
+	margin-left: auto;
+}
+.CLSlinkpulsantemenu {    
+    height: 49px;
+}
+.CLScontenitoresegnapostosfondi {
+	position: fixed;
+	width: 40%;
+	bottom: 75px;
+	right: 15px;
+	display: none;
+}
+.CLSsegnapostosfondi {
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+}
+.CLStitolooperasfondo {
+	position: fixed;
+	width: 40%;
+	bottom: 10px;
+	right: 0px;
+	display: none;
+	text-align: right;
+	padding: 5px;
+}
+.CLStitolooperasfondo2 {
+	width: 40%;
+	bottom: 23px;
+	right: 20px;
+}
+.CLSnewscorpo {
+	position: absolute;
+	left: 50%;
+	padding-left: 50px;
+	width: 500px;
+}
+.CLScontenitoreimmaginenews {
+	opacity: 1;
+}
+.CLSdettaglievento {	
+	width: 500px;
+	left: 51%;
+	padding: 25px;
+}
+.CLScontenitorearticolo {
+	height: 600px;
+}
+.CLSsezioneinallestimento {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -150px;
+	line-height: 300px;
+}
+.CLSsezionecontatti {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -150px;
+	line-height: 150px;
+}
+
+.CLScorpobiosezione {
+	width: 47%;
+	padding: 15px;
+}
+.CLSesposizionibiosezione {
+	width: 47%;
+	right: 0px;
+	padding: 15px;
+	float: right;
+}
+.CLSsfondobiomezzo {
+	width: 100%;
+	height: 850px;
+	display: block;
+}
+.CLScorpoinfocookies {
+	position: absolute;
+	width: 700px;
+	top: 50px;
+	left: 50%;
+	margin-left: -350px;
+	padding: 15px;
+}
+.CLScontenitoresezioni {
+	top: 50px;
+}
+.CLSworkssezionequadrato {   
+   visibility: visible;
+}
+.CLSslideshowdettagliarticolo {
+	top: 50px;
+	height: 50px;
+}
+}
